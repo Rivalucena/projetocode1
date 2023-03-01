@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+ 
+    
+}
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+legend {
+    background-color: #ff0000;
+    padding: 3px;
+    color: #ffffff;
+}
+h1 {
+    color: #ff0000;
+}
+.file {
+    padding: 10px;
+}
+.aso {
+    padding: 10px;
+}
