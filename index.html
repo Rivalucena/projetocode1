@@ -67,12 +67,19 @@
                 <input type="number" name="CPF" required minlength="15"/>
             </label><br/>
             <label>
-                Nome da Mãe:<br/>
-                <input type="name" name="nomedamae" required minlength="2"/>
+                Numero de reservista militar:<br/>
+                <input type="number" name="reservista" required />
             </label><br/>
+            <label>
+                    Numero do PIS:<br/>
+                    <input type="number" name="pis" required />
+            </label><br/>
+
         </fieldset>
 
-        <button name="botao">cadastrar</button>
+        <div class="file" >
+            <input type="file" name="photo" accept="application/pdf" />
+        </div>
     </form>
     
 </body>
